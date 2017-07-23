@@ -1,0 +1,22 @@
+@charset"utf-8";
+
+/* Make default used selector */
+/* 브라우저마다 다른 기본 설정된 값을 0으로 재 정리 */
+div, header, nav, section, article, footer, ul, li, p, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* Array center */
+/* 페이지 가운데 정렬 */
+#wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+
