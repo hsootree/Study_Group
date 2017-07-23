@@ -1,4 +1,49 @@
 @charset"utf-8";
-a {
-  
+
+/* common navigation */
+a, a:link, a:active {
+  color: #444;
+  text-decoration: none;
 }
+h1, nav .navi, .navi li, .members, .members li, .snsicon li {
+  display: inline-block;
+  line-height: 60px;
+}
+
+h1, .navi li, footer p {
+  padding-right: 20px;
+}
+
+/* array right */
+.members, .snsicon {
+  float: right;
+  text-align: right;
+}
+.members li {
+  padding-left: 20px;
+}
+.snsicon li {
+  padding-left: 10px;
+}
+
+/* float clear */
+header:after{
+  clear: both;
+}
+
+/* array footer */
+footer p, footer.navi, footer.snsicon{
+  line-height: 60px;
+  vertical-align: middle;
+}
+
+footer ul.navi {
+  width: 480px;
+  margin:-60px auto;
+}
+
+footer .snsicon{
+  float: right;
+  margin-top: 0px;
+}
+

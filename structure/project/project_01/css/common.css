@@ -2,7 +2,7 @@
 
 /* Make default used selector */
 /* 브라우저마다 다른 기본 설정된 값을 0으로 재 정리 */
-div, header, nav, section, article, footer, ul, li, p, a {
+div, header, nav, section, article, footer,h1, ul, li, p, a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
