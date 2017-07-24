@@ -32,6 +32,12 @@ header:after{
 }
 
 /* array footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  height:60px;
+  width: 1024px;
+}
 footer p, footer.navi, footer.snsicon{
   line-height: 60px;
   vertical-align: middle;
