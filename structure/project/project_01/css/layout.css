@@ -102,11 +102,20 @@ article.MobileImg {
 }
 
 /* array footer */
-footer p, .navi  {
+footer {
+  clear: both;
+}
+footer p {
   float: left;
 }
-
 footer .snsicon{
   float: right;
 }
-
+footer .navi {
+  width: 500px;
+  margin:-60px auto 0;
+}
+.navi li, .snsicon {
+  text-align: center;
+  padding: 5px, 10px;
+}
