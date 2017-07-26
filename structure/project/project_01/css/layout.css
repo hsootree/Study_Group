@@ -1,0 +1,41 @@
+@charset "utf-8";
+*, 
+*::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:1px solid #999;
+}
+/* layout */
+#wrapper {
+  margin: 0 auto;
+  width: 1024px;
+}
+header {
+  display: fixed;
+  top: 0px;
+  left: 0px;
+}
+nav, h1 {
+  float: left;
+  height: 23px;
+}
+.members {
+  float: right;
+}
+.navi {
+  /*width: 500px;*/
+  border: 1px solid red;
+}
+h1, .navi li, .members li {
+  display: inline;
+}
+
+/* top */
+
+/* navigation */
+
+/* contents */
+
+/* bottom */

@@ -1,4 +1,5 @@
-@charset"utf-8";
+@charset "utf-8";
+/* 띄어쓰기 잘 할 것 */
 
 /* common navigation */
 a, a:link, a:active {
@@ -13,8 +14,10 @@ h1, nav .navi, .navi li, .members, .members li, .snsicon li {
 h1, .navi li, footer p {
   padding-right: 20px;
 }
-
-/* array right */
+.navi {
+  border: 1px solid blue;
+}
+/* array right 
 .members, .snsicon {
   float: right;
   text-align: right;
